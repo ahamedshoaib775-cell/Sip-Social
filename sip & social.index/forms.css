@@ -1,0 +1,41 @@
+/* General styling */
+body {
+  font-family: Arial, sans-serif;
+  background: #fffdfd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Contact Form Container */
+form {
+  background: #ffffff;
+  background: #;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  text-align: center;
+}
+
+/* Title */
+form h2 {
+  color: #ff914d;
+  margin-bottom: 20px;
+  font-size: 26px;
+}
+
+/* Input fields */
+form input,
+form textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  outline: none;
+  transition: 0.3s;
+}
+
